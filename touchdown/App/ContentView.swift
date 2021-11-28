@@ -37,6 +37,10 @@ struct ContentView: View {
                         }
                         .padding(15)
                         
+                        TitleView(title: "Brand")
+                        
+                        BrandGridView()
+                        
                         FooterView()
                             .padding(.horizontal)
                     }

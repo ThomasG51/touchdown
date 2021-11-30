@@ -29,7 +29,7 @@ struct ContentView: View {
                             
                             CategoryGridView()
                             
-                            TitleView(title: "Helemet")
+                            TitleView(title: "Helmet")
                             
                             LazyVGrid(columns: gridLayout, spacing: 15) {
                                 ForEach(products) { product in
